@@ -11,5 +11,6 @@ package ejerciciosclasetres;
  * @author reroes
  */
 public class Pelicula {
-    int version;
+    public int version; // si no se pone public se queda solo para este 
+                        // paquete
 }
