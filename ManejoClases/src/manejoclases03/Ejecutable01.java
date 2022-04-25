@@ -9,6 +9,7 @@ public class Ejecutable01 {
     public static void main(String[] args) {
         // Se crea un objeto
         Hospital hospital = new Hospital();
+        Hospital h2 = new Hospital();
         
         // Se asigna valores particulares al objeto
         // a través de los métodos establecer
@@ -29,7 +30,14 @@ public class Ejecutable01 {
         // System.out.printf("%s - %d - %.2f\n", hospital.nombre,
         //         hospital.numeroCamas, hospital.presupuesto);
         
-        System.out.printf("%s - %d - %.2f\n", hospital.obtenerNombre(),
+         System.out.printf("%s - %d - %.2f\n", hospital.obtenerNombre(),
+                hospital.obtenerNumeroCamas(), hospital.obtenerPresupuesto());
+        
+        hospital.establecerNumeroCamas(500+50);
+        
+        System.out.println("-------------------------------------------------");
+        
+         System.out.printf("%s - %d - %.2f\n", hospital.obtenerNombre(),
                 hospital.obtenerNumeroCamas(), hospital.obtenerPresupuesto());
         
     }

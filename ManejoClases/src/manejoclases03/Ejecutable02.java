@@ -28,5 +28,9 @@ public class Ejecutable02 {
         System.out.printf("%s\n", h1.obtenerNombre());
         
         
+        System.out.printf("%s - %d - %.2f\n", h2.obtenerNombre(),
+                h2.obtenerNumeroCamas(), h2.obtenerPresupuesto());
+        
+        
     }
 }

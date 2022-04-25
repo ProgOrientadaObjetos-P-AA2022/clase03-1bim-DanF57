@@ -9,6 +9,8 @@ package manejoclases;
  *
  * @author reroes
  */
-public class Hospital {
-    
+public class Hospital { //nombre de class siempre en mayus la primera
+    String nombre;
+    int numeroCamas;
+    double presupuesto;
 }
